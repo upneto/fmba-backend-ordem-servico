@@ -22,7 +22,7 @@ services:
       dockerfile: Dockerfile
       context: .
     ports:
-      - "8080:8080"
+      - "8085:8080"
     environment: 
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db_ordem_servico:5432/postgres
       - SPRING_DATASOURCE_USERNAME=postgres

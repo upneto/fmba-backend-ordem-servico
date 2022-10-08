@@ -15,5 +15,5 @@
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="fmba-backend-ordem-servico"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="fmba-backend-ordem-servico"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
-    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dserver.port=8084"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dserver.port=8095"/>
 </launchConfiguration>

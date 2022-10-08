@@ -10,7 +10,7 @@ services:
     networks:
       - fmba-bridge
     ports:
-      - 5432:5434
+      - 5435:5432
     volumes:
       - db:/var/lib/postgres
 
@@ -26,7 +26,7 @@ services:
     ports:
       - "8084:8080"
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://db_ordem_servico:5434/postgres
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db_ordem_servico:5435/postgres
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=root
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update      
