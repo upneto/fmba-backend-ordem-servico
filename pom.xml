@@ -61,14 +61,6 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 
-		<!-- Eureka -->
-		<dependency>
-		    <groupId>org.springframework.cloud</groupId>
-		    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		    <version>4.0.0</version>
-		</dependency>
-
-
 		<!-- SWEGGER -->
 		<dependency>
 			<groupId>io.springfox</groupId>
