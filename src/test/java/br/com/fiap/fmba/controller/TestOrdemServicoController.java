@@ -17,6 +17,7 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.http.ResponseEntity;
 
+import br.com.fiap.fmba.controller.api.OrdemServicoController;
 import br.com.fiap.fmba.controller.payload.OrdemServicoPayload;
 import br.com.fiap.fmba.persistence.model.OrdemServico;
 import br.com.fiap.fmba.resources.exception.DaoException;
@@ -57,7 +58,7 @@ public class TestOrdemServicoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.OrdemServicoController#findAll()}.
+	 * {@link br.com.fiap.fmba.controller.api.OrdemServicoController#findAll()}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -77,7 +78,7 @@ public class TestOrdemServicoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.OrdemServicoController#findBy(long)}.
+	 * {@link br.com.fiap.fmba.controller.api.OrdemServicoController#findBy(long)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -94,7 +95,7 @@ public class TestOrdemServicoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.OrdemServicoController#insert(br.com.fiap.fmba.persistence.model.OrdemServico)}.
+	 * {@link br.com.fiap.fmba.controller.api.OrdemServicoController#insert(br.com.fiap.fmba.persistence.model.OrdemServico)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -108,7 +109,7 @@ public class TestOrdemServicoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.OrdemServicoController#update(br.com.fiap.fmba.persistence.model.OrdemServico)}.
+	 * {@link br.com.fiap.fmba.controller.api.OrdemServicoController#update(br.com.fiap.fmba.persistence.model.OrdemServico)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -121,7 +122,7 @@ public class TestOrdemServicoController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.OrdemServicoController#delete(long)}.
+	 * {@link br.com.fiap.fmba.controller.api.OrdemServicoController#delete(long)}.
 	 * @throws DaoException 
 	 */
 	@Test

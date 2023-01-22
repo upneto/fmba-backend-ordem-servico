@@ -1,4 +1,4 @@
-package br.com.fiap.fmba.controller;
+package br.com.fiap.fmba.controller.api;
 
 import java.util.List;
 
