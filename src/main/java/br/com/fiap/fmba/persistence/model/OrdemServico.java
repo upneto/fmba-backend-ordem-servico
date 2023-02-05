@@ -63,5 +63,8 @@ public class OrdemServico implements Serializable {
 
 	@Column(name="cliente_servico_id")
 	private BigInteger clienteId;
+	
+	@Column(length = 1000)
+	private String descricao;
 
 }

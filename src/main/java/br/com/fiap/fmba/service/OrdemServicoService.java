@@ -29,6 +29,7 @@ public class OrdemServicoService {
 						.status(ordemServico.getStatusServico().getId())
 						.veiculo(ordemServico.getVeiculoId())
 						.cliente(ordemServico.getClienteId())
+						.descricao(ordemServico.getDescricao())
 						.build();						
 		} catch (Exception e) {
 			throw new DaoException(e.getMessage(), e);
@@ -48,6 +49,7 @@ public class OrdemServicoService {
 						.status(ordemServico.getStatusServico().getId())
 						.veiculo(ordemServico.getVeiculoId())
 						.cliente(ordemServico.getClienteId())
+						.descricao(ordemServico.getDescricao())
 						.build());
 			});
 			
@@ -66,6 +68,7 @@ public class OrdemServicoService {
 					.statusServico(TipoStatusServico.builder().id(ordemServico.getStatus()).build())
 					.veiculoId(ordemServico.getVeiculo())
 					.clienteId(ordemServico.getCliente())
+					.descricao(ordemServico.getDescricao())
 					.build());
 		} catch (Exception e) {
 			throw new DaoException(e.getMessage(), e);
@@ -82,6 +85,7 @@ public class OrdemServicoService {
 					.statusServico(TipoStatusServico.builder().id(ordemServico.getStatus()).build())
 					.veiculoId(ordemServico.getVeiculo())
 					.clienteId(ordemServico.getCliente())
+					.descricao(ordemServico.getDescricao())
 					.build());
 		} catch (Exception e) {
 			throw new DaoException(e.getMessage(), e);

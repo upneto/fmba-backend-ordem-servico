@@ -34,4 +34,6 @@ public class OrdemServicoPayload {
 	private BigInteger veiculo;
 	
 	private BigInteger cliente;
+	
+	private String descricao;
 }
